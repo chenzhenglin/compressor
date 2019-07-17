@@ -1,0 +1,2 @@
+1、在主线程中使用module.exports需要将.babelrc中plugins清空 "plugins": []
+2、慎用eval()，在主进程中使用eval打包后会报错

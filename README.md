@@ -1,6 +1,7 @@
 # compassor
 
-> An electron-vue project
+> 基于electron-vue的前端文件打包压缩的桌面应用软件
+> v1.0.0实现了单个js的打包跟还原打包前源文件的功能
 
 #### Build Setup
 

@@ -29,6 +29,11 @@ export default new Router({
       path: '/helper',
       name: 'helper',
       component: require('@/components/helper').default
+    },
+    {
+      path: '/log',
+      name: 'log',
+      component: require('@/components/log').default
     }
   ]
 })

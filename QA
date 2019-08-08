@@ -1,2 +1,6 @@
 1、在主线程中使用module.exports需要将.babelrc中plugins清空 "plugins": []
 2、慎用eval()，在主进程中使用eval打包后会报错
+3、ERROR in Template execution failed: ReferenceError: process is not defined
+    将node版本node 12.4开发版还原到10.16稳定版
+
+问题参照：https://segmentfault.com/a/1190000019487488

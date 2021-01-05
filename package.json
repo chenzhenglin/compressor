@@ -63,7 +63,7 @@
     "asar": false
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "electron-log": "^3.0.6",
     "element-ui": "^2.10.1",
     "gulp": "^4.0.2",
